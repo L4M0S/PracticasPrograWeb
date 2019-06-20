@@ -1,0 +1,108 @@
+a
+{
+	margin: 1em 0;
+	display: block;
+}
+
+.alternativo
+{
+	color: #cc0000;
+}
+
+.simple
+{
+	text-decoration: none;
+}
+
+.importante
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.raro
+{
+	text text-decoration: overline;
+}
+
+#destacada
+{
+	width: 120px;
+	height: 250px;
+}
+
+ul
+{
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+ol
+{
+	list-style-type: lower-alpha;
+}
+
+ul>li
+{
+	line-height: 1.2em;
+	list-style-image: url("star.png"); 
+}
+
+ol>li
+{
+	line-height: 1.2em;
+	list-style-image: url("placeholder.png"); 
+}
+
+
+table, td, th
+{
+	border: 1px solid;
+}
+
+td, th
+{
+	width: 100px;
+	height: 35px;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.formulario p
+{
+	width: 400px;
+	margin: 0;
+	padding: 8px 0;
+	padding-left: 255px;
+	border-top: 1px solid #ddd;
+}
+
+.formulario label
+{
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	margin-left: -255px;
+	width: 240px;
+}
+
+.formulario input[type="text"]
+{
+	width: 250px;
+}
+
+.formulario textarea
+{
+	width: 250px;
+	height: 150px;
+	font: normal 14px arial, helvetica, sans-serif;
+}
+
+#botones
+{
+	margin-left: 255px;
+}

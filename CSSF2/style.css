@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #5921AC;
+}
+
+header
+{
+	margin: 10px;
+	height: 100px;
+	background-color: red;
+}
+
+nav
+{
+	margin: 10px;
+	height: 100px;
+	background-color: blue;
+}
+
+section
+{
+	margin: 10px;
+	width: 65%;
+	height: 100px;
+	background-color: green;
+	display: inline-block;
+}
+
+article
+{
+	margin: 5px;
+	width: 45%;
+	height: 50%;
+	background-color: brown;
+	display: inline-block;
+	
+}
+
+#article1
+{
+	float: left;
+}
+
+#article2
+{
+	float: right;
+}
+
+aside
+{
+
+	margin: 10px;
+	width: 30%;
+	height: 100px;
+	background-color: yellow;
+	display: inline-block;
+}
+
+footer
+{
+	margin: 10px;
+	height: 100px;
+	background-color: white;
+}

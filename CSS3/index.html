@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a href="">Por defecto</a>
+	<a href="" class="alternativo">Alternativo</a>
+	<a href="" class="simple">simple</a>
+	<a href="" class="importante">Importante</a>
+	<a href="" class="raro">Raro</a>
+
+	<br><img src="../Practica1/html5.png" alt="" id="destacada">
+
+	<ul>
+		<li>Item de lista 1</li>
+		<li>Item de lista 2
+			<ol>
+				<li>Subitem de lista A</li>
+				<li>Subitem de lista B</li>
+				<li>Subitem de lista C</li>
+			</ol>
+		</li>
+		<li>Item de lista 3</li>
+	</ul>
+
+	<table>
+		<caption>Tabla de ejemplo</caption>
+		<tr>
+			<td></td>
+			<th>Columna 1</th>
+			<th>Columna 2</th>
+			<th>Columna 3</th>
+			<th>Columna 4</th>
+		</tr>
+		<tr>
+			<th>Fila 1</th>
+			<td>Celda 1,1</td>
+			<td>Celda 1,2</td>
+			<td>Celda 1,3</td>
+			<td>Celda 1,4</td>
+		</tr>
+		<tr>
+			<th>Fila 2</th>
+			<td>Celda 2,1</td>
+			<td>Celda 2,2</td>
+			<td>Celda 2,3</td>
+			<td>Celda 2,4</td>
+		</tr>
+		<tr>
+			<th>Fila 3</th>
+			<td>Celda 3,1</td>
+			<td>Celda 3,2</td>
+			<td>Celda 3,3</td>
+			<td>Celda 3,4</td>
+		</tr>
+		<tr>
+			<th>Fila 4</th>
+			<td>Celda 4,1</td>
+			<td>Celda 4,2</td>
+			<td>Celda 4,3</td>
+			<td>Celda 4,4</td>
+		</tr>
+	</table>
+
+	<h2>Formulario</h2>
+	<form action="" id="miformulario" class="formulario">
+		<p>
+			<label for="Nombre">Nombre:</label>
+			<input type="text" id="user">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="text" id="emailaddress">
+		</p>
+		<p>
+			<label for="mensaje">Mensaje:</label>
+			<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+		</p>
+		<p>
+			<label for="comentarios">Sexo:</label>
+			Masculino:<input type="radio" name="sex">
+			Femenino:<input type="radio" name="sex">	
+		</p>
+		<br>
+		<p>
+			<label for="comentarios">Color preferido:</label>
+			<input type="checkbox" name="color">Rojo<br>
+			<input type="checkbox" name="color" class="threepxfix">Verde<br>
+			<input type="checkbox" name="color">Azul<br>
+		</p>
+		<p>
+			<label for="terms">Acepto los terminos</label>
+			<input type="checkbox" id="terms" class="boxes">
+		</p>
+		<div id="botones">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</div>
+	</form>
+</body>
+</html>
